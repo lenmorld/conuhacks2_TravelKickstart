@@ -33,6 +33,7 @@
 
 
     <!--<script type="text/ng-template" id="/products.html">-->
+        <!--{{2+2}}-->
         <!--<h3>YaaS communication sample, GET all Products</h3>-->
         <!--<div ng-repeat="product in products">-->
             <!--{{product.name}} - {{product.description}}-->
@@ -42,10 +43,16 @@
 
     <!-- inline home template -->
     <script type="text/ng-template" id="/travels.html">
-        <h3>YaaS communication sample, GET all Products</h3>
-        <div ng-repeat="product in products">
-            {{product.name}} - {{product.description}}
+
+        <div class="jumbotron">
+            <h3>YaaS communication sample, GET all Products</h3>
+            <h4>https://api.yaas.io/hybris/product/v2/angularproject/products</h4>
+            <div class="well" ng-repeat="product in products">
+                {{product.name}} - {{product.description}}
+                <pre>{{product}}</pre>
+            </div>
         </div>
+
 
         <div class="container text-center">
           <h3>Travels</h3>
