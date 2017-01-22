@@ -5,6 +5,7 @@
 ** YaaS doc: YaaS Builder quickstart.pdf **
 
 FUNDEE
+
 For people who wants to go on a trip
 to explore the world, do a humanitarian act,
 see family
@@ -13,6 +14,7 @@ they can make a 'travel proposal' for the crowd to fund
 Let's call 'travel proposal' a 'TP'
 
 FUNDERS
+
 Other people can fund them
 especially those we are well-travelled
 and who understands that travelling is an
