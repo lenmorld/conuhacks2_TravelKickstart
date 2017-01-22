@@ -20,6 +20,12 @@ router.get('/travels', function(req, res, next) {
 });
 
 
+// // GET all products
+// router.get('/products', function(req, res, next) {
+//   console.log(req.params);
+// });
+
+
 // POST a travel
 router.post('/travels', function (req, res, next) {
   var travel = new Travel(req.body);

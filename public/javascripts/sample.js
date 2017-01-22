@@ -26,16 +26,16 @@ app.config([
                     }]
                 }
             });
-            // .state('posts', {
-            //     url: '/posts/{id}',			// id is a route param available to our controller
-            //     templateUrl: '/posts.html',
-            //     controller: 'PostsCtrl'	,
-            //     resolve: {
-            //         post: ['$stateParams', 'postsService', function ($stateParams, postsService) {
-            //             return postsService.get($stateParams.id);
-            //         }]
-            //     }
-            // });
+        // .state('posts', {
+        //     url: '/posts/{id}',			// id is a route param available to our controller
+        //     templateUrl: '/posts.html',
+        //     controller: 'PostsCtrl'	,
+        //     resolve: {
+        //         post: ['$stateParams', 'postsService', function ($stateParams, postsService) {
+        //             return postsService.get($stateParams.id);
+        //         }]
+        //     }
+        // });
 
         $urlRouterProvider.otherwise('home');	// go home if URL encountered not defined
     }
@@ -58,8 +58,8 @@ app.factory('travelService', ['$http', function ($http) {
     o.getAll = function () {
         // --> since we are trying to connect to SAP Hybris YaaS, we need to include Auth header
         return $http.get('https://api.yaas.io/hybris/product/v2/angularproject/products', {
-                            headers: {'Authorization': 'Bearer 021-b0975f56-167a-4984-a559-3e6bcc192ac3'}}).success(function (data) {
-                angular.copy(data, o.products);
+            headers: {'Authorization': 'Bearer 021-b0975f56-167a-4984-a559-3e6bcc192ac3'}}).success(function (data) {
+            angular.copy(data, o.products);
         });
     };
 
@@ -67,7 +67,7 @@ app.factory('travelService', ['$http', function ($http) {
 
     o.create = function (travel) {
         return $http.post('/travels', travel).success(function(data) {
-           o.travels.push(data);
+            o.travels.push(data);
         });
     };
 
@@ -83,7 +83,6 @@ app.controller('TravelCtrl', [
         $scope.test = 'Hello World';
 
         $scope.travels = travelService.travels;
-        $scope.products = travelService.products;
 
         $scope.addTravel = function () {
             if (!$scope.body|| $scope.body === '' ||

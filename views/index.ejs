@@ -32,9 +32,21 @@
     </div>
 
 
+    <!--<script type="text/ng-template" id="/products.html">-->
+        <!--<h3>YaaS communication sample, GET all Products</h3>-->
+        <!--<div ng-repeat="product in products">-->
+            <!--{{product.name}} - {{product.description}}-->
+        <!--</div>-->
+    <!--</script>-->
+
 
     <!-- inline home template -->
     <script type="text/ng-template" id="/travels.html">
+        <h3>YaaS communication sample, GET all Products</h3>
+        <div ng-repeat="product in products">
+            {{product.name}} - {{product.description}}
+        </div>
+
         <div class="container text-center">
           <h3>Travels</h3>
           <p>Travel now!</p>
@@ -46,7 +58,6 @@
             <img ng-src="{{travel.image}}" class="travelpic" alt="" />
           </div>
         </div>
-
 
         <!-- insert travel -->
         <form class="addTravel" ng-submit="addTravel()">
@@ -60,8 +71,10 @@
           </div>
           <button type="submit" class="btn btn-primary">ADD</button>
         </form>
-
     </script>
+
+
+
 
   </body>
 </html>
