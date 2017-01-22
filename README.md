@@ -75,10 +75,14 @@ Persons - could be a Fundee or a Funder, based on if their travel property is an
 Travels
 
 ==================================================
+:cry:
+
 Not able to imlement app due to limited time constraint (24 hours - sleeping)
 which is mostly spent learning MEAN (first time)
 and trying to figure out the YaaS API (first time)
 but it definitely is a great experience
+
+:smile:
 
 
 # What is working?
