@@ -111,3 +111,6 @@ but it definitely is a great experience
 - [ ] Supporting a TP by buying FP, e.g. paying $5 to support a $10k trip
 - [ ] Social media stuff - adding/removing friends
 - [ ] Everything else
+
+
+### This provides a very good foundation for a Online Store ('Frontstore' in YaaS terms) web-app based on MEAN
