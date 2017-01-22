@@ -1,7 +1,6 @@
 # TravelKickstart
 
-## Kickstarter but for travel
-## with a social media setting
+## Kickstarter but for travel, with a social media setting
 
 FUNDEE
 For people who wants to go on a trip
@@ -108,4 +107,7 @@ but it definitely is a great experience
     serves one route: ``` router.get('/travels', function(req, res, next) { }```
 
 ## A lot of business logic still needs to be included
-- [ ] Adding a new TP (Product0)
+- [ ] Adding/removing a new TP (Product)
+- [ ] Supporting a TP by buying FP, e.g. paying $5 to support a $10k trip
+- [ ] Social media stuff - adding/removing friends
+- [ ] Everything else
