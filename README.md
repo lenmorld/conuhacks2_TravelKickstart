@@ -99,7 +99,6 @@ but it definitely is a great experience
 - [x] NodeJS is working
 
     ```javascript routes/index.js ``` contains Monggose objects init. and ** internal routes **
-        ```javascript routes/index.js
 
         router.get('/', function(req, res, next) { }
 
