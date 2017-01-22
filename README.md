@@ -98,14 +98,14 @@ but it definitely is a great experience
 
 - [x] NodeJS is working
 
-    ```javascript routes/index.js ``` contains Monggose objects init. and ** internal routes **
-
+    [routes/index.js]  contains Monggose objects init. and ** internal routes **
+    ```javascript
         router.get('/', function(req, res, next) { }
 
         router.get('/travels', function(req, res, next) { }
 
         router.post('/travels', function (req, res, next) { }
-        ```
+    ```
     serves one route: ```javascript router.get('/travels', function(req, res, next) { }```
 
 ## A lot of business logic still needs to be included
