@@ -2,6 +2,8 @@
 
 ## Kickstarter but for travel, with a social media setting
 
+** YaaS doc: YaaS Builder quickstart.pdf **
+
 FUNDEE
 For people who wants to go on a trip
 to explore the world, do a humanitarian act,
@@ -29,7 +31,7 @@ funders
 
 * SAP Hybris YaaS
 * Stripe (tokenize credit card and use Stripe API, then send to YaaS)
-* MEAN stack
+* MEAN stack, using EJS
 
 
 ### Technologies
@@ -114,3 +116,16 @@ but it definitely is a great experience
 
 
 ### This provides a very good foundation for a Online Store ('Frontstore' in YaaS terms) web-app based on MEAN
+
+
+==================================================
+### To run
+#### install Node and MongoDB, express, express-generator
+###### !!! IMPORTANT before running generate a token in YaaS builder, read pdf for details !!!
+> this project is created using WebStorm AngularJS or NodeJS, which gives the same structure as express-generator
+
+go to CONUHACKS2/ directory
+```
+npm install
+npm start
+```
