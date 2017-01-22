@@ -81,19 +81,26 @@ and trying to figure out the YaaS API (first time)
 but it definitely is a great experience
 
 
-What is working?
+# What is working?
 MEAN stack fully working
 [x] Mongo is running, with Mongoose models also providing the domain object (/models)
+
 [x] Express is working, didnt touch the default options
+
 [x] AngularJS contains most of the logic
     * TravelCtrl - exposes the $scope travels and products to the HTML which displays through ```javascript ng-repeat ```
     * TravelService - uses ```javascript $http.get() ``` to request data from an 'internal' NodeJS served route [/travels]
                     and from 'external' route [https://api.yaas.io/hybris/product/v2/angularproject/products]
+
 [x] NodeJS is working
+
     * ```javascript routes/index.js ``` contains Monggose objects init. and ** internal routes **
         ```javascript routes/index.js
+
         router.get('/', function(req, res, next) { }
+
         router.get('/travels', function(req, res, next) { }
+
         router.post('/travels', function (req, res, next) { }
         ```
     * serves one route: ```javascript router.get('/travels', function(req, res, next) { }```
